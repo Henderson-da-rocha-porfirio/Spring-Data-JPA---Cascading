@@ -6,5 +6,6 @@
 ### 5. (Cascade = "remove") Se uma Clase mãe sofre um delete, automaticamente o objeto filho também sofrerá um delete
 ### 6. (Cascade = "refresh") segue o mesmo fluxo dos demais acima: mãe e filho.
 ### 7. (Cascade = "detach")
-### 8. (Cascade = "all")
+### 8. (Cascade = "all") Todos os efeitos em cascata que o Pai sofrer, o Filho também sofrerá.
 ### 9. Todos eles podem ser aplicados para uma associação e dependendo do que seja, pode aplicá-los para controlar o efeito cascata (cascading)
+### 10. Basicamente, o efeito cascata está relacionado a: "Todos os efeitos em cascata que o Pai sofrer, o Filho também sofrerá de acordo com algum tipo de non-select operations acima.
