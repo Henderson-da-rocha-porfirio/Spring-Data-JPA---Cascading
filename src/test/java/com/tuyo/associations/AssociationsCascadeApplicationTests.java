@@ -6,10 +6,9 @@ import com.tuyo.associations.manytomany.repos.ProgramadorRepository;
 import com.tuyo.associations.onetomany.entities.Cliente;
 import com.tuyo.associations.onetomany.entities.NumeroTelefone;
 import com.tuyo.associations.onetomany.repos.ClienteRepository;
+import com.tuyo.associations.onetoone.entities.Licenca;
 import com.tuyo.associations.onetoone.entities.Pessoa;
 import com.tuyo.associations.onetoone.repos.LicencaRepository;
-import com.tuyo.associations.onetoone.entities.Licenca;
-
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +22,7 @@ import java.util.Set;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AssociationsApplicationTests {
+public class AssociationsCascadeApplicationTests {
 
 	@Autowired
 	ClienteRepository repository;
